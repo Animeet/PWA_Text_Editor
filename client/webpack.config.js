@@ -33,6 +33,8 @@ module.exports = () => {
         short_name: 'PWA Text Editor',
         description: 'A simple text editor that uses PWA technologies',
         background_color: '#ffffff',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
